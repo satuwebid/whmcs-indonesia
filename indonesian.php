@@ -8,10 +8,10 @@
  *   http://docs.whmcs.com/Language_Overrides
  *
  * @package    WHMCS
- * @author     Indonesia Webhoster Community <hendra@jawanet.com>
- * @copyright  Copyright (c) Jawanet 2016
+ * @author     Satu Web Indonesia
+ * @copyright  Copyright (c) Satu Web 2017
  * @version    $Id$
- * @link       http://www.jawanet.com/
+ * @link       https://satuweb.id
  */
 
 if (!defined("WHMCS")) die("This file cannot be accessed directly");
@@ -145,8 +145,8 @@ $_LANG['clientareacurrentsecurityquestion'] = "Please choose your current securi
 $_LANG['clientareadeletecontact'] = "Hapus Kontak";
 $_LANG['clientareadeletecontactareyousure'] = "Are you sure you want to delete this contact?";
 $_LANG['clientareadescription'] = "View & update your account details";
-$_LANG['clientareadisklimit'] = "Disk Space Limit";
-$_LANG['clientareadiskusage'] = "Disk Space Usage";
+$_LANG['clientareadisklimit'] = "Batas Ruang Simpan";
+$_LANG['clientareadiskusage'] = "Penggunaan Ruang Simpan";
 $_LANG['clientareadomainexpirydate'] = "Expiry Date";
 $_LANG['clientareadomainnone'] = "Tidak ada domain yang terdaftar dari kami";
 $_LANG['clientareaemail'] = "Alamat Email";
@@ -258,7 +258,7 @@ $_LANG['contacttitle'] = "Pre-Sales Contact Us";
 $_LANG['continueshopping'] = "Lanjutkan Belanja";
 $_LANG['creditcard'] = "Bayar Dari Kartu Kredit";
 $_LANG['creditcard3dsecure'] = "As part of our fraud prevention measures, you will now be asked to perform the Verified by Visa or Mastercard SecureCode verification to complete your payment.<br /><br />Do not click the refresh or back button or this transaction may be interrupted or cancelled.";
-$_LANG['creditcardcardexpires'] = "Expiry Date";
+$_LANG['creditcardcardexpires'] = "Tanggal Kadaluarsa";
 $_LANG['creditcardcardissuenum'] = "Issue Number";
 $_LANG['creditcardcardnumber'] = "Card Number";
 $_LANG['creditcardcardstart'] = "Start Date";
@@ -281,7 +281,7 @@ $_LANG['days'] = "Hari";
 $_LANG['hours'] = "Jam";
 $_LANG['minutes'] = "Menit";
 $_LANG['seconds'] = "Detik";
-$_LANG['defaultbillingcontact'] = "Default Billing Contact";
+$_LANG['defaultbillingcontact'] = "Kontak Pembayaran Bawaan";
 $_LANG['domainalternatives'] = "Try these alternatives:";
 $_LANG['domainavailable'] = "Tersedia! Pesan Sekarang";
 $_LANG['domainavailable1'] = "Selamat!";
@@ -300,9 +300,9 @@ $_LANG['domaindnsmanagementdesc'] = "Point your domain to a web site by pointing
 $_LANG['domaindnsrecordtype'] = "Record Type";
 $_LANG['domainemailforwarding'] = "Email Forwarding";
 $_LANG['domainemailforwardingdesc'] = "If the Email Forwarding Server determines the Forward To address is invalid, we will disable the forwarding record automatically. Please check the Forward To address before you enable it again. The changes on any existing forwarding record may not take effect for up to 1 hour.";
-$_LANG['domainemailforwardingforwardto'] = "Forward To";
+$_LANG['domainemailforwardingforwardto'] = "Teruskan Ke";
 $_LANG['domainemailforwardingprefix'] = "Prefix";
-$_LANG['domaineppcode'] = "EPP Code";
+$_LANG['domaineppcode'] = "Kode EPP";
 $_LANG['domaineppcodedesc'] = "This needs to be obtained from the current registrar for authorisation";
 $_LANG['domaineppcoderequired'] = "You must enter the EPP code for";
 $_LANG['domainerror'] = "There was a problem connecting to the domain registry. Please try again later.";
@@ -330,14 +330,14 @@ $_LANG['domainordernow'] = "Pesan Sekarang!";
 $_LANG['domainorderrenew'] = "Pesan Perpanjangan";
 $_LANG['domainprice'] = "Harga";
 $_LANG['domainregisterns'] = "Daftarkan Nameservers";
-$_LANG['domainregisternscurrentip'] = "Current IP Address";
+$_LANG['domainregisternscurrentip'] = "Alamat IP saat ini";
 $_LANG['domainregisternsdel'] = "Hapus NameServer";
 $_LANG['domainregisternsdelsuccess'] = "The nameserver  was successfully deleted";
 $_LANG['domainregisternsexplanation'] = "From here you can create and manage custom nameservers for your domain (eg. NS1.example.com, NS2.example.com...).";
 $_LANG['domainregisternsip'] = "Alamat IP";
-$_LANG['domainregisternsmod'] = "Modify a NameServer IP";
-$_LANG['domainregisternsmodsuccess'] = "The nameserver  was successfully modified";
-$_LANG['domainregisternsnewip'] = "New IP Address";
+$_LANG['domainregisternsmod'] = "Merubah IP Nameserver";
+$_LANG['domainregisternsmodsuccess'] = "Name server berhasil di ubah";
+$_LANG['domainregisternsnewip'] = "Alamat IP Baru";
 $_LANG['domainregisternsns'] = "Nameserver";
 $_LANG['domainregisternsreg'] = "Register a NameServer Name";
 $_LANG['domainregisternsregsuccess'] = "The nameserver  was successfully registered";
